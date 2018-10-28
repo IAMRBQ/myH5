@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>首页导航</title>
+	<style type="text/css">
+		.top{
+			height:100px;
+			width: 100%px;
+			background: green;
+			margin-left:5px;
+		}
+		.top>input{
+			font:bold 25px 宋体;
+			border-radius: 15px;
+			width: 16%;
+			height:80px;
+			margin-left: 3px;
+			margin-top:10px
+		}
+		.left{
+			text-align: center;
+			height: 100%;
+			width: 10%;
+			background: white;
+			float:left;
+			margin-right: 50px;
+			margin-left: 5px;
+			border-left: 5px solid gray;
+			border-right: 5px solid gray
+		}
+		.left>span{
+			margin-top: 20px;
+		}
+		.right{
+			height:100%;
+			width: 85%;
+			float:left;
+		}
+		.right>iframe{
+			height: 100%;
+			width: 100%
+		}
+	</style>
+</head>
+	<body>
+	<div class="top">
+		<input  type="button" value="首页" />
+		<input  type="button" value="产品介绍"/>
+		<input  type="button" value="新闻中心" />
+		<input  type="button" value="购买指南" />
+		<input  type="button" value="经营理念" />
+		<input  type="button" value="活动" />
+	</div>
+	<div class="left">
+		<span>
+			<a href="1.html" target="mubiao">首页</a><br/><br/>
+			<a href="2.html" target="mubiao">新闻</a><br/><br/>
+			<a href="3.html" target="mubiao">活动</a><br/><br/>
+		</span>
+	</div>
+	<div class="right">
+		<iframe src="1.html" frameborder="0" name="mubiao"></iframe>
+	</div>
+	</body>
+</html>
